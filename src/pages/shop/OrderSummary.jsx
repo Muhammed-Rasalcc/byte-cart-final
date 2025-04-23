@@ -2,7 +2,8 @@ import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { clearcart } from '../../redux/features/cart/CartSlice';
 import {loadStripe} from '@stripe/stripe-js';
-import { getBaseUrl } from '../../utils/baseUrl';
+import { getBaseUrl } from 'utils/baseURL';
+
 
 
 const OrderSummary = () => {
